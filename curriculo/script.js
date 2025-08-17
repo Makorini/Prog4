@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const saudacao = document.getElementById("saudacao");
 
   btn.addEventListener("click", (event) => {
-    event.preventDefault(); // previne envio do formulário
+    event.preventDefault(); // previne envio do formulário teste
     const nome = nomeInput.value.trim();
     if (nome) {
       saudacao.innerText = `Olá, ${nome}! Bem-vindo(a) ao meu Currículo Web!`;
